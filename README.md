@@ -49,3 +49,9 @@ pnpm preview
 ```
 
 The preview server runs separately from the dev server at `localhost:4173`.
+
+## Licensing and Copyright
+
+Our name "Team 1280" and its variants, as well as our logos and other branding assets are our copyright and trademarks (where applicable). See [our identity repo and its license for more information](https://github.com/team-1280/identity).
+
+The source code of this website itself, however, is licensed under the GNU Affero General Public License, and is free and open source software. Additionally, all hosted versions of this site, even if modified, **must** provide its source code to end users.
