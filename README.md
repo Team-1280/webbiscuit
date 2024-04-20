@@ -1,38 +1,45 @@
-# create-svelte
+# Webbiscuit
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Team 1280's state-of-the-art website. Hosts Team 1280's resources, information, and more.
 
-## Creating a project
+## Development Instructions
 
-If you're seeing this, you've probably already done this step. Congrats!
+The website is built with SvelteKit and TailwindCSS. To run a local development build:
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Clone the repository:
 
 ```bash
-npm run dev
+# with https
+git clone https://github.com/Team-1280/webbiscuit.git
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+# or with ssh
+git clone git@github.com:Team-1280/webbiscuit.git
+
+# or with GitHub CLI
+gh repo clone Team-1280/webbiscuit
+
+# and enter the directory
+cd webbiscuit
 ```
 
-## Building
-
-To create a production version of your app:
+Then, make sure you have [pnpm](https://pnpm.io/) installed, and then start a development server by running:
 
 ```bash
-npm run build
+pnpm install
+
+# start the development server
+pnpm dev
 ```
 
-You can preview the production build with `npm run preview`.
+The development server will run at `localhost:5173`, and it will reload automatically on file changes or module updates. However, it won't be optimized for performance.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+To test a local **production** build, run this instead:
+
+```bash
+# compile and bundle the site for production
+pnpm build
+# serve the production build in a local test server
+pnpm preview
+```
+
+The preview server runs separately from the dev server at `localhost:4173`.
