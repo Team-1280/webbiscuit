@@ -4,6 +4,8 @@ Team 1280's state-of-the-art website. Hosts Team 1280's resources, information, 
 
 ## Development Instructions
 
+Check [TODOS.md](/TODOS.md) for a list of tasks that need to be completed.
+
 The website is built with SvelteKit and TailwindCSS. To run a local development build:
 
 Clone the repository:
