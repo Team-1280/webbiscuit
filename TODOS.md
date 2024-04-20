@@ -4,7 +4,7 @@ This document contains a non-exhaustive list of things that need to be worked on
 
 ## Urgent
 
-- [ ] Select color scheme in `app.pcss` to be used by all Tailwind classes and cocomponents
+- [ ] Select color scheme in `app.pcss` to be used by all Tailwind classes and components.
 
 > [!CAUTION]
 > The above should be completed before any further work is done! Otherwise, progress may be wasted.
