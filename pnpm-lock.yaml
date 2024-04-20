@@ -5,6 +5,15 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@fontsource/geist-mono':
+    specifier: ^5.0.3
+    version: 5.0.3
+  '@fontsource/geist-sans':
+    specifier: ^5.0.3
+    version: 5.0.3
+  '@fontsource/zilla-slab':
+    specifier: ^5.0.13
+    version: 5.0.13
   clsx:
     specifier: ^2.1.0
     version: 2.1.0
@@ -349,6 +358,18 @@ packages:
     resolution: {integrity: sha512-Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
+
+  /@fontsource/geist-mono@5.0.3:
+    resolution: {integrity: sha512-ekY5FNiK7aMxan/c6lgVQa/rIwQ/AMEJZJWY7768jBrLVdkrCxfEfCe1ePpe7C3JnySy7c9R6HC4Xh4ksfjTaw==}
+    dev: false
+
+  /@fontsource/geist-sans@5.0.3:
+    resolution: {integrity: sha512-oGwoSIqNPMvjtCwj1lZaEr47MeiG27XPhypwkF643u1TQduvwbm3V3hYB01JekeaT34SAGP4I1h+WCdRpJkcwA==}
+    dev: false
+
+  /@fontsource/zilla-slab@5.0.13:
+    resolution: {integrity: sha512-TLEjRB/Ub/odkv13GrggKPRWL3OS2wj0WvQXNMU4nsDNQEAERe26IQ8vGzxt+fi35keJ9UhZsaF5m/TgdHx4Mg==}
+    dev: false
 
   /@humanwhocodes/config-array@0.11.14:
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
