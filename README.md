@@ -22,11 +22,15 @@ gh repo clone Team-1280/webbiscuit
 cd webbiscuit
 ```
 
-Then, make sure you have [pnpm](https://pnpm.io/) installed, and then start a development server by running:
+Then, make sure you have [pnpm](https://pnpm.io/) installed, and then run the following to install dependencies:
 
 ```bash
 pnpm install
+```
 
+Start a development server by running:
+
+```bash
 # start the development server
 pnpm dev
 ```
